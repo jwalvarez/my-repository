@@ -1,0 +1,74 @@
+body {
+    background-color: #15202B;
+    display: flex;
+    justify-content: center;
+}
+
+#div-login {
+    /*background-color: tomato;*/
+    width: 400px;
+    /*si es valido hacer esto?*/
+    transform: translateY(80%);
+}
+
+@media screen and (max-width:450px) {
+
+    /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+    #div-login {
+        /*background-color: tomato;*/
+        width: 300px;
+        /*si es valido hacer esto?*/
+        transform: translateY(20%);
+    }
+}
+
+/*no es necesario css para icono, una sola instruccion*/
+.slogan {
+    padding-bottom: 50px;
+}
+
+.datext {
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.button {
+    padding-top: 12px;
+}
+
+.blue-button {
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    /*IMPORTANTE*/
+    display: flex;
+    /*alinear contenido*/
+    justify-content: center;
+    align-items: center;
+    background-color: #1DA1F2;
+    border: 2px solid #2ea4ec;
+}
+
+.blue-button:hover {
+    background-color: #1b87ca;
+    border: 2px solid #1b87ca;
+}
+
+.white-button:hover {
+    background-color: #1b2a38;
+
+    border: 2px solid #2ea4ec;
+}
+
+.white-button {
+    padding: 12px;
+    border-radius: 20px;
+    color: #1DA1F2;
+    /*IMPORTANTE*/
+    display: flex;
+    /*alinear contenido*/
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1DA1F2;
+}
